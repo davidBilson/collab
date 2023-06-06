@@ -151,3 +151,31 @@ ABOUT PAGE
     background: ghostwhite;
     border-radius: 100px;
 }
+
+/********************
+Contact PAGE
+/*******************/
+.contact-container {
+    width: 100%;
+    max-width: var(--maxWidth);
+    margin: auto;
+    padding: 200px 30px;
+}
+
+.contact-container > h1 {
+    margin-bottom: 30px;
+    width: fit-content;
+    max-width: 500px;
+}
+
+.contact-container > p {
+    margin-bottom: 30px;
+    width: fit-content;
+    max-width: 500px;
+}
+
+.contact-container > button {
+    padding: 15px 60px;
+    background: ghostwhite;
+    border-radius: 100px;
+}
