@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 70px;
+    color: white;
+}
+h2 {
+    font-size: 25px;
+    color: ghostwhite;
+}
+h3 {
+    font-size: 18px;
+    color: ghostwhite;
+}
+p {
+    font-size: 16px;
+    color: rgb(209, 209, 209);
+}
+button {
+    font-size: 17px;
+    border: none;
+}
+body {
+    background: url(../images/beachBackground.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+
+
+/********************
+ABOUT PAGE
+/*******************/
+.about-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 200px 30px;
+}
+
+.about-container > h1 {
+    margin-bottom: 30px;
+    width: fit-content;
+    max-width: 500px;
+}
+
+.about-container > p {
+    margin-bottom: 30px;
+    width: fit-content;
+    max-width: 500px;
+}
+
+.about-container > button {
+    padding: 15px 60px;
+    background: ghostwhite;
+    border-radius: 100px;
+}
